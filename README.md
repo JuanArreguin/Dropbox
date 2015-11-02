@@ -1,3 +1,3 @@
 # Dropbox
 
-![dropbox gif] (DropBox.gif)
+![dropbox gif] (Dropbox/DropBox.gif)
