@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0A92801BE2F51000B04D08 /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A927F1BE2F51000B04D08 /* BackViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A39F02D1BE72A8000596C6C /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39F02C1BE72A8000596C6C /* ScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A39F02F1BE7335500596C6C /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39F02E1BE7335500596C6C /* settingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A39F0311BE7388500596C6C /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39F0301BE7388500596C6C /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A39F0331BE73B8F00596C6C /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39F0321BE73B8F00596C6C /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8A3BF82B1BDFF443005EBE7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BF82A1BDFF443005EBE7E /* AppDelegate.swift */; };
 		8A3BF82D1BDFF443005EBE7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BF82C1BDFF443005EBE7E /* ViewController.swift */; };
 		8A3BF8301BDFF443005EBE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3BF82E1BDFF443005EBE7E /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A0A927F1BE2F51000B04D08 /* BackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackViewController.swift; sourceTree = "<group>"; };
+		8A39F02C1BE72A8000596C6C /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		8A39F02E1BE7335500596C6C /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		8A39F0301BE7388500596C6C /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		8A39F0321BE73B8F00596C6C /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		8A3BF8271BDFF443005EBE7E /* CodePath-Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodePath-Dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3BF82A1BDFF443005EBE7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A3BF82C1BDFF443005EBE7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,9 +110,14 @@
 				8A3BF82A1BDFF443005EBE7E /* AppDelegate.swift */,
 				8A3BF82C1BDFF443005EBE7E /* ViewController.swift */,
 				8A3BF82E1BDFF443005EBE7E /* Main.storyboard */,
+				8A39F0321BE73B8F00596C6C /* SignInRootViewController.swift */,
+				8A39F0301BE7388500596C6C /* CreateAccountRootViewController.swift */,
 				8A3BF8311BDFF443005EBE7E /* Assets.xcassets */,
 				8A3BF8331BDFF443005EBE7E /* LaunchScreen.storyboard */,
 				8A3BF8361BDFF443005EBE7E /* Info.plist */,
+				8A0A927F1BE2F51000B04D08 /* BackViewController.swift */,
+				8A39F02C1BE72A8000596C6C /* ScrollViewController.swift */,
+				8A39F02E1BE7335500596C6C /* settingsViewController.swift */,
 			);
 			name = "CodePath-Dropbox";
 			path = Dropbox;
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A39F0311BE7388500596C6C /* CreateAccountRootViewController.swift in Sources */,
+				8A39F02F1BE7335500596C6C /* settingsViewController.swift in Sources */,
+				8A39F0331BE73B8F00596C6C /* SignInRootViewController.swift in Sources */,
+				8A0A92801BE2F51000B04D08 /* BackViewController.swift in Sources */,
 				8A3BF82D1BDFF443005EBE7E /* ViewController.swift in Sources */,
 				8A3BF82B1BDFF443005EBE7E /* AppDelegate.swift in Sources */,
+				8A39F02D1BE72A8000596C6C /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
