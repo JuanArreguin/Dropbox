@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A00B3381BE906150013C854 /* filesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00B3371BE906150013C854 /* filesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8A00B33A1BE906760013C854 /* photosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00B3391BE906760013C854 /* photosViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8A0A92801BE2F51000B04D08 /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A927F1BE2F51000B04D08 /* BackViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8A39F02D1BE72A8000596C6C /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39F02C1BE72A8000596C6C /* ScrollViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8A39F02F1BE7335500596C6C /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A39F02E1BE7335500596C6C /* settingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -19,6 +21,7 @@
 		8A3BF8351BDFF443005EBE7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3BF8331BDFF443005EBE7E /* LaunchScreen.storyboard */; };
 		8A3BF8401BDFF443005EBE7E /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BF83F1BDFF443005EBE7E /* DropboxTests.swift */; };
 		8A3BF84B1BDFF443005EBE7E /* DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3BF84A1BDFF443005EBE7E /* DropboxUITests.swift */; };
+		8AA73E0F1BE844E600183049 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA73E0E1BE844E600183049 /* signUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A00B3371BE906150013C854 /* filesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filesViewController.swift; sourceTree = "<group>"; };
+		8A00B3391BE906760013C854 /* photosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photosViewController.swift; sourceTree = "<group>"; };
 		8A0A927F1BE2F51000B04D08 /* BackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackViewController.swift; sourceTree = "<group>"; };
 		8A39F02C1BE72A8000596C6C /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		8A39F02E1BE7335500596C6C /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +62,7 @@
 		8A3BF8461BDFF443005EBE7E /* CodePath-Dropbox.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodePath-Dropbox.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3BF84A1BDFF443005EBE7E /* DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxUITests.swift; sourceTree = "<group>"; };
 		8A3BF84C1BDFF443005EBE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA73E0E1BE844E600183049 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,9 @@
 				8A0A927F1BE2F51000B04D08 /* BackViewController.swift */,
 				8A39F02C1BE72A8000596C6C /* ScrollViewController.swift */,
 				8A39F02E1BE7335500596C6C /* settingsViewController.swift */,
+				8AA73E0E1BE844E600183049 /* signUpViewController.swift */,
+				8A00B3371BE906150013C854 /* filesViewController.swift */,
+				8A00B3391BE906760013C854 /* photosViewController.swift */,
 			);
 			name = "CodePath-Dropbox";
 			path = Dropbox;
@@ -273,9 +282,12 @@
 			files = (
 				8A39F0311BE7388500596C6C /* CreateAccountRootViewController.swift in Sources */,
 				8A39F02F1BE7335500596C6C /* settingsViewController.swift in Sources */,
+				8AA73E0F1BE844E600183049 /* signUpViewController.swift in Sources */,
 				8A39F0331BE73B8F00596C6C /* SignInRootViewController.swift in Sources */,
 				8A0A92801BE2F51000B04D08 /* BackViewController.swift in Sources */,
+				8A00B33A1BE906760013C854 /* photosViewController.swift in Sources */,
 				8A3BF82D1BDFF443005EBE7E /* ViewController.swift in Sources */,
+				8A00B3381BE906150013C854 /* filesViewController.swift in Sources */,
 				8A3BF82B1BDFF443005EBE7E /* AppDelegate.swift in Sources */,
 				8A39F02D1BE72A8000596C6C /* ScrollViewController.swift in Sources */,
 			);
